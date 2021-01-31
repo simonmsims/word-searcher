@@ -26,5 +26,5 @@ $ pip install -r requirements.txt
 ## Usage
 
 ```
-$ python word-searcher word-length=[N] word-set=[char1,...,charN] word-offset[char,N],[offset,N]
+$ python word-searcher word_length=[N] word_set=[char1,...,charN] word_offset=[char1,offset1] word_offset=[char2,offset2]
 ```
