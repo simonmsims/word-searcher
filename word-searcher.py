@@ -33,6 +33,9 @@ def _search_for_word(word_length, word_set):
                 for char in word_set:
                     if char not in line:
                         found = False
+                for char in line:
+                    if char not in word_set:
+                        found = False
             if found:
                 print ("'%s'" % line)
 
